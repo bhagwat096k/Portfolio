@@ -1,0 +1,416 @@
+*{
+
+    margin: 0%;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#portname{
+
+    /* line-height: 80px; */
+    height: 100px;
+    width: 100%;
+    background-color: rgba(11, 11, 10, 0.746);
+    color: #fff; 
+    border: 2px solid black;
+    position: sticky;
+}
+
+#portname h4{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    margin: 20px;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+#header{
+    width: 100%;
+    min-height: 50px;
+    background-color: #ff9900;
+    /* margin-bottom: 50px; */
+    /* position: sticky;
+    top: 0; */
+}
+#MName{
+    float: left;
+    color: rgb(251, 252, 252);
+    width: 25%;
+    min-height: 50px;
+    line-height: 50px;
+    position: sticky;
+    padding-left: 10px;
+}
+#Nav{
+   width: 75%;
+   min-height: 50px;
+   color: white;
+   float: right;
+   line-height: 50px;
+   position: sticky;
+
+
+}
+#Nav a{
+    display: inline-block;
+    width: 16%;
+    min-height: 50px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    position: sticky;
+
+}
+#Nav a:hover{
+    text-decoration: underline;
+}
+
+/* *********About********** */
+
+#About{
+    
+    min-height: 650px;
+    width: 100%;
+    background-color:#fbfcfc;
+    
+}
+#About .inner{
+    min-height: 550px;
+    width: 80%;
+    /* background-color: cadetblue; */
+    margin: auto;
+    /* margin-top: 20px; */
+    /* background-color: white; */
+    
+
+}
+#About .inner #image{
+    width: 25%;
+    min-height: 400px;
+    /* background-color: bisque; */
+    float: left;
+    padding-top: 40px;
+    margin-top: 30px;
+
+}
+#About .inner #image img{
+    /* display: block; */
+    width: 80%;
+    height: 60%;
+    
+    
+    margin: auto;
+    margin-bottom: 20px;
+    border: 10px solid white;
+    margin-top: 55px;
+    border-radius: 5px;
+   
+
+}
+#About .inner #image p{
+    text-align: center;
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 2px solid black;
+    color: #fff;
+    height: 50px;
+    width: 80%;
+    line-height: 50px;
+    margin-left: 0px;
+    margin-top: 5px;
+    background-color:rgb(255, 191, 0);
+    border-radius: 10px;
+}
+
+#About .inner #bio{
+    min-height: 400px;
+    width: 75%;
+    /* background-color:rebeccapurple ; */
+    float: right;
+    padding-top: 55px;
+    padding-right: 20px;
+    
+}
+#About .inner #bio h2{
+    margin-bottom: 20px;
+}
+#About .inner #bio p{
+    text-align: justify;
+    font-size: 16px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+#About .inner #bio a{
+  display: inline-block;
+  width: 25%;
+  margin-right: 20px;
+  margin-top: 23px;
+  color: white;
+  background-color:  #ffbf00;
+  text-align: center;
+  line-height: 40px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+/* **************************Qualification***************************** */
+
+#qualification{
+    width: 100%;
+    min-height: 400px;
+    background-color:#fbfcfc;
+    padding-top: 50px;
+
+}
+#qualification h2{
+    text-align: center;
+    margin-bottom: 50px;
+    color: #ff9900;
+    background-color: #fbfcfc;
+    width: 100%;
+    font-size: 30px;
+
+}
+#qualification table{
+    width: 70%;
+    margin: auto;
+    min-height: 200px;
+    text-align: center;
+    /* border: 2px solid black; */
+}
+#qualification table tr:nth-child(1){
+    background-color: #ffbf00;
+    color: white;
+    text-align: center;
+}
+#qualification table tr:nth-child(even){
+    background-color: white;
+}
+
+/* *************Skills***************** */
+#skills{
+    width: 100%;
+    min-height: 400px;
+    background-color: rgb(251, 252, 252);
+    padding-top: 50px;
+    background-color:#fbfcfc;
+
+}
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  #skills h2{
+    font-size: 30px;
+    color: #ff9900;
+    text-align: center;
+    margin-bottom: 50px;
+
+  }
+  
+  .skill {
+    width: 40%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  
+  .skill:hover {
+    transform: translateY(-5px);
+  }
+  
+  .skill h3 {
+    margin-bottom: 10px;
+    /* margin: auto; */
+  }
+  
+  .skill-level {
+    height: 20px;
+    background-color: #ffbf00;
+    border-radius: 5px;
+    
+  }
+  .skillperc{
+    padding-top: auto;
+    color: #fff;
+    padding-left: 5px;
+  }
+
+  /* ************Project**************** */
+
+  .project {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+    background-color:#fbfcfc;
+  }
+  
+  #projects .project img{
+    height: 30%;
+    width: 30%;
+  }
+  #projects .project a{
+    font-size: larger;
+  }
+  .project:hover {
+    transform: translateY(-5px);
+  }
+  #projects h2{
+    font-size: 30px;
+    color: #ff9900;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+  }
+  #projects .project a{
+    margin-top: 10px;
+    text-decoration: none;
+  }
+  #projects .project a:hover{
+    text-decoration: underline;
+    height: 80%;
+}
+/* ***************Form**8 */
+form {
+    max-width: 500px;
+    margin:  auto;
+    background-color:#fbfcfc;
+    border-radius: 10px;
+    padding: 10px;
+
+  }
+  
+  #contact h2 {
+    font-size: 30px;
+    color: #ff9900;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #ff9900;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center;
+  }
+  
+  button:hover {
+    background-color: #b47515;
+    
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 900px) {
+    .skill {
+      width: 45%;
+    }
+  }
+  
+  footer{
+    margin-top: 10%;
+    color:white;
+    background-color: black;
+    text-align: center;
+}
+#top{
+  height: 50px;
+  width: 50px;
+  background-color: #e68a00;
+  color:white;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 60px;
+  position: fixed;
+  bottom: 55px;
+  right: 20px;
+  border-radius: 10%;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #login-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #d10813;
+  }
